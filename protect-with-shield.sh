@@ -1,5 +1,5 @@
 #!/bin/bash
-echo $1,$2
+echo $1,$2,$3
 export AWS_REGION=$2
 failed=0
 success=0
