@@ -1,4 +1,5 @@
 #!/bin/bash
+# Usage = protect-with-shield.sh <IP Block> <AWS REGION> <AWS-Account Number>
 echo $1,$2,$3
 export AWS_REGION=$2
 failed=0
